@@ -12,7 +12,7 @@ The `DATA` folder contains the `Redbull.csv` file, which is used to test the fun
 ### CODES
 The `CODES` folder contains a Jupyter notebook named `test.ipynb`, where users can experiment with the syntax and various ways of formulating questions.
 
-Within the `CODES` folder, there is a subfolder that houses an API implemented using FastAPI and uvicorn for deploying the chatbot in a production environment. The source code of the API and a file containing the pipeline and data preprocessing are included. The API can be executed using the following command: `uvicorn app.main:app --reload`
+Within the `CODES` folder, there is a subfolder `deployment` that houses an API implemented using FastAPI and uvicorn for deploying the chatbot in a production environment. The source code of the API and a file containing the pipeline and data preprocessing are included. The API can be executed using the following command: `uvicorn app.main:app --reload`
 
 ## Getting Started
 To run the project, you need to have an `OPENAI_API_KEY`. Ensure you have set this key as an environment variable for added security.
